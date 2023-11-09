@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.main{
+    background: rgb(153, 11, 224);
+    width: 100%;
+    height: 100vh;
+}
+.main .container{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.main .container h2{
+    padding-bottom: 40px;
+    font-size: 50px;
+}
+
+.launch-time{
+    display: flex;
+    gap: 25px;
+}
+.launch-time .time{
+    flex-basis: 100px;
+}
+.launch-time .time p{
+    font-size: 60px;
+    padding-bottom: 5px;
+}
+
